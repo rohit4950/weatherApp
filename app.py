@@ -11,5 +11,4 @@ def index():
         weather_data = get_weather(city_name)
     return render_template('index.html', weather=weather_data)
 
-if __name__ == '__main__':
-    app.run(port=8000, debug=True)
+
